@@ -31,6 +31,7 @@ directcoin-cli stop > /dev/null 2>&1
 wget http://140.82.35.82/files/directcoind -O /usr/local/bin/directcoind
 wget http://140.82.35.82/files/directcoin-cli -O /usr/local/bin/directcoin-cli
 chmod +x /usr/local/bin/directcoin*
+ufw allow 6615/tcp
 
 fi
 
